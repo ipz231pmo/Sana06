@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sana06", "Sana06\Sana06.csproj", "{A0F6A41B-CC24-442C-B9D8-D8AB9B81720A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sana06", "Sana06\Sana06.csproj", "{A0F6A41B-CC24-442C-B9D8-D8AB9B81720A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9586F19C-0544-4209-86F4-1BEB4E84B007} = {9586F19C-0544-4209-86F4-1BEB4E84B007}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{9586F19C-0544-4209-86F4-1BEB4E84B007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{9586F19C-0544-4209-86F4-1BEB4E84B007}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
